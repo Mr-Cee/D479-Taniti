@@ -1,0 +1,157 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Taniti Tourism | Things To Do</title>
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+<a class="skip-link" href="#main">Skip to content</a>
+
+<header class="site-header">
+  <div class="container">
+    <div class="header-inner">
+      <div class="brand" aria-label="Taniti Tourism">
+        <div class="logo" aria-hidden="true">T</div>
+        <div>
+          <h1>Taniti</h1>
+          <small>Tourism Website</small>
+        </div>
+      </div>
+
+      <div class="primary-actions">
+        <a class="btn btn-primary" href="booking.html">Book</a>
+        <input class="nav-toggle" type="checkbox" id="nav-toggle" aria-label="Open menu" />
+        <label class="nav-toggle-label" for="nav-toggle" aria-hidden="true">☰</label>
+      </div>
+    </div>
+
+    <nav class="nav" aria-label="Main navigation">
+      <ul>
+        <li><a class="" href="index.html">Home</a></li>
+<li><a class="active" href="things-to-do.html">Things To Do</a></li>
+<li><a class="" href="booking.html#lodging">Stay</a></li>
+<li><a class="" href="about.html#restaurants">Eat & Drink</a></li>
+<li><a class="" href="transportation.html">Transportation</a></li>
+<li><a class="" href="booking.html">Book</a></li>
+<li><a class="" href="faq.html">FAQ</a></li>
+<li><a class="" href="about.html">About Taniti</a></li>
+<li><a class="" href="contact.html">Contact</a></li>
+      </ul>
+    </nav>
+  </div>
+</header>
+
+<main id="main">
+
+<section class="section">
+  <div class="container">
+    <h2>Things To Do</h2>
+    <p>Use search and filters to find activities fast. Each activity shows quick details (time, cost range, and area).</p>
+
+    <div class="controls" aria-label="Search and filter controls">
+      <div>
+        <label for="q">Quick search (jump links)</label>
+        <input id="q" type="text" placeholder='Try: "snorkel", "museum", "volcano" (static demo)' aria-describedby="qhelp" />
+        <div id="qhelp" class="small" style="color:var(--muted); margin-top:.25rem;">This is a static demo (no live search). Use the shortcuts below.</div>
+      </div>
+
+      <div class="pills" aria-label="Popular searches">
+        <a class="pill" href="#volcano">Volcano</a>
+        <a class="pill" href="#snorkeling">Snorkeling</a>
+        <a class="pill" href="#culture">Museum</a>
+        <a class="pill" href="#nightlife">Nightlife</a>
+      </div>
+
+      <div>
+        <label>Filters (clear and simple)</label>
+        <div class="filter-row" role="radiogroup" aria-label="Activity filters">
+          <input type="radio" name="filter" id="f-all" checked /><label for="f-all">All</label>
+          <input type="radio" name="filter" id="f-family" /><label for="f-family">Family</label>
+          <input type="radio" name="filter" id="f-adventure" /><label for="f-adventure">Adventure</label>
+          <input type="radio" name="filter" id="f-indoors" /><label for="f-indoors">Indoors</label>
+          <input type="radio" name="filter" id="f-nightlife" /><label for="f-nightlife">Nightlife</label>
+          <input type="radio" name="filter" id="f-nature" /><label for="f-nature">Nature</label>
+        </div>
+      </div>
+    </div>
+
+    <div class="activity-list">
+      <article id="beaches" class="activity family nature">
+        <div class="activity-title"><h4>Beaches (Yellow Leaf Bay)</h4></div>
+        <div class="meta"><span class="chip">Time: Flexible</span><span class="chip">Cost: $</span><span class="chip">Area: Taniti City / Yellow Leaf Bay</span></div>
+        <p>Relax on sandy beaches around Yellow Leaf Bay near Taniti City.</p>
+        <div class="activity-actions"><a class="btn btn-secondary" href="about.html#sightseeing">Learn More</a><a class="btn btn-primary" href="booking.html#activities">Book</a></div>
+      </article>
+
+      <article id="rainforest" class="activity adventure nature">
+        <div class="activity-title"><h4>Rainforest Hike</h4></div>
+        <div class="meta"><span class="chip">Time: 2–4 hours</span><span class="chip">Cost: $</span><span class="chip">Area: Interior Trails</span></div>
+        <p>Explore lush rainforest trails and guided hikes.</p>
+        <div class="activity-actions"><a class="btn btn-secondary" href="about.html#entertainment">Learn More</a><a class="btn btn-primary" href="booking.html#activities">Book</a></div>
+      </article>
+
+      <article id="volcano" class="activity adventure nature">
+        <div class="activity-title"><h4>Volcano Tour</h4></div>
+        <div class="meta"><span class="chip">Time: Half-day</span><span class="chip">Cost: $$</span><span class="chip">Area: Mountain Interior</span></div>
+        <p>Visit Taniti’s small active volcano with a guided tour.</p>
+        <div class="activity-actions"><a class="btn btn-secondary" href="about.html#sightseeing">Learn More</a><a class="btn btn-primary" href="booking.html#activities">Book</a></div>
+      </article>
+
+      <article id="snorkeling" class="activity family adventure nature">
+        <div class="activity-title"><h4>Snorkeling</h4></div>
+        <div class="meta"><span class="chip">Time: 2–3 hours</span><span class="chip">Cost: $$</span><span class="chip">Area: Yellow Leaf Bay</span></div>
+        <p>Enjoy clear water snorkeling near the bay.</p>
+        <div class="activity-actions"><a class="btn btn-secondary" href="about.html#entertainment">Learn More</a><a class="btn btn-primary" href="booking.html#activities">Book</a></div>
+      </article>
+
+      <article id="zipline" class="activity adventure nature">
+        <div class="activity-title"><h4>Zip-Lining in the Rainforest</h4></div>
+        <div class="meta"><span class="chip">Time: 2 hours</span><span class="chip">Cost: $$</span><span class="chip">Area: Merriton Landing</span></div>
+        <p>Fly through rainforest canopy on guided zip-line courses.</p>
+        <div class="activity-actions"><a class="btn btn-secondary" href="about.html#entertainment">Learn More</a><a class="btn btn-primary" href="booking.html#activities">Book</a></div>
+      </article>
+
+      <article id="fishing" class="activity family adventure nature">
+        <div class="activity-title"><h4>Chartered Fishing Tour</h4></div>
+        <div class="meta"><span class="chip">Time: 3–5 hours</span><span class="chip">Cost: $$</span><span class="chip">Area: Harbor / Yellow Leaf Bay</span></div>
+        <p>Book a fishing trip with local guides and charter boats.</p>
+        <div class="activity-actions"><a class="btn btn-secondary" href="about.html#entertainment">Learn More</a><a class="btn btn-primary" href="booking.html#activities">Book</a></div>
+      </article>
+
+      <article id="culture" class="activity family indoors">
+        <div class="activity-title"><h4>Local History Museum</h4></div>
+        <div class="meta"><span class="chip">Time: 1–2 hours</span><span class="chip">Cost: $</span><span class="chip">Area: Taniti City</span></div>
+        <p>Learn about Taniti’s history, culture, and architecture.</p>
+        <div class="activity-actions"><a class="btn btn-secondary" href="about.html#sightseeing">Learn More</a><a class="btn btn-primary" href="booking.html#activities">Book</a></div>
+      </article>
+
+      <article id="nightlife" class="activity nightlife indoors">
+        <div class="activity-title"><h4>Nightlife (Pubs + Dance Club)</h4></div>
+        <div class="meta"><span class="chip">Time: Evening</span><span class="chip">Cost: $$</span><span class="chip">Area: Merriton Landing</span></div>
+        <p>Visit pubs (including a microbrewery) or dance at the club.</p>
+        <div class="activity-actions"><a class="btn btn-secondary" href="about.html#entertainment">Learn More</a><a class="btn btn-primary" href="booking.html#activities">Book</a></div>
+      </article>
+    </div>
+  </div>
+</section>
+
+</main>
+
+<footer class="site-footer">
+  <div class="container">
+    <div class="footer-inner">
+      <div class="footer-links">
+        <a href="contact.html">Contact</a>
+        <a href="contact.html#social">Social</a>
+        <a href="faq.html#holidays">Hours/Holidays Notice</a>
+      </div>
+      <div class="small">
+        Tip: Replace placeholder images in <strong>/img</strong> with your own local files (no external media links).
+      </div>
+    </div>
+  </div>
+</footer>
+</body>
+</html>
